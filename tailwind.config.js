@@ -11,6 +11,7 @@ export default {
       }
     },
     colors: {
+      ...defaultTheme.colors,
       primary: 'rgb(var(--color-primary))',
       secondary: 'rgb(var(--color-secondary))',
       content: 'rgb(var(--color-content))',
