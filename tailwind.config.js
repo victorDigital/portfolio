@@ -16,6 +16,9 @@ export default {
       content: 'rgb(var(--color-content))',
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    // ...
+  ],
 }
 
