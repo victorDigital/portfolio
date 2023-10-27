@@ -3,9 +3,8 @@
     <div class="w-full border-b-4 border-double mb-6"></div>
     <main>
         <div class="flex flex-row-reverse rounded-3xl w-full h-96 bg-primary">
-            <!--igmage placeholder-->
-            <div class="w-2/5 h-full bg-secondary rounded-r-3xl"></div>
-            <div class="p-6 w-3/5">
+            <img class="w-1/3 h-full bg-white rounded-3xl border-4 border-primary border-l-0 object-contain" src="banner.png" alt="betterlectio">
+            <div class="p-6 w-2/3">
                 <h3 class="font-space text-3xl text-content">BetterLectio.dk</h3>
                 <h3 class="font-space font-bold text-content">co-founder & main developer</h3>
                 <p class="font-serif text-lg text-content rounded-2xl mt-3 line-clamp-3">
@@ -22,3 +21,9 @@
         </div>
     </main>
 </div>
+
+<style>
+    .bg-white {
+        background-color: #fff;
+    }
+</style>
