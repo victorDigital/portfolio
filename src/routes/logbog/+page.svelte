@@ -14,12 +14,12 @@
    <script src="https://tutsplus.github.io/syntax-highlighter-demos/highlighters/Prism/prism.js"></script>
 </svelte:head>
 
-<div class="container mx-auto">
-    <div class="flex flex-col items-center justify-center my-20">
+<div class="px-2">
+    <div class="flex flex-col w-full items-center justify-center my-20">
         <h1 class="font-space font-black text-4xl">
             Logbog
         </h1>
-        <div class="prose prose-h1:font-space prose-h2:font-space">
+        <div class="prose max-w-full  md:max-w-2xl prose-h1:font-space prose-h2:font-space">
             <SvelteMarkdown {source} renderers={{code: CodeComponent}} />
         </div>
     </div>
