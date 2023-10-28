@@ -8,13 +8,13 @@ export default {
     extend: {
       fontFamily: {
         space: ['"Space Mono"', ...defaultTheme.fontFamily.sans],
-      }
-    },
-    colors: {
-      ...defaultTheme.colors,
-      primary: 'rgb(var(--color-primary))',
-      secondary: 'rgb(var(--color-secondary))',
-      content: 'rgb(var(--color-content))',
+      },
+      colors: {
+        ...defaultTheme.colors,
+        primary: 'rgb(var(--color-primary))',
+        secondary: 'rgb(var(--color-secondary))',
+        content: 'rgb(var(--color-content))',
+      },
     },
   },
   plugins: [

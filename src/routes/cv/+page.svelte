@@ -22,9 +22,6 @@
 </div>
 
 <style>
-    .text-white {
-        color: white;
-    }
 
     .bouncy {
         transition-property: all;

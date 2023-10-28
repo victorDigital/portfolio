@@ -21,9 +21,3 @@
         </div>
     </main>
 </div>
-
-<style>
-    .bg-white {
-        background-color: #fff;
-    }
-</style>
