@@ -52,7 +52,7 @@
             >
         </div>
     {/if}
-    {#if canBeRun && !programStopped}
+    {#if canBeRun && !programStopped && !RuntimeError}
         <div class="">
             <canvas
                 class="rounded-md"
