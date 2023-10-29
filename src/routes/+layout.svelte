@@ -17,7 +17,9 @@
 
 <div class="">
   <Nav />
-  <slot />
+  <main class="mb-32">
+    <slot />
+  </main>
 </div>
 
 <style>
