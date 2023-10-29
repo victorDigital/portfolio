@@ -32,7 +32,7 @@
         var canvas = document.getElementById("processing-canvas" + id);
         if (canvas) {
             try {
-                new Processing(canvas, script.text);
+                new Processing(canvas, script.text.replace("clear();", ""));
             } catch (error) {
                 RuntimeError = error;
                 console.warn(error);
