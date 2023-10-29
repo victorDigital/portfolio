@@ -71,6 +71,7 @@
                     programStopped = true;
                     codeIsRunning = false;
                     canBeRun = false;
+                    window.location.reload();
                 }}
             >
                 STOP
